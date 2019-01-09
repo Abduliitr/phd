@@ -1,0 +1,88 @@
+body{
+    background-position-x:center;
+  }
+  
+  body > div{
+    margin:auto !important;
+    width:1080px;
+  }
+  {
+      padding:0px;
+  }
+  #menu
+  {
+      width:1080px;
+      margin:0px;
+  }
+  #menu ul
+  {
+      list-style:none;
+      margin:0px;
+      position:relative;
+      font-family:Calibri;
+  }
+  #menu ul li
+  {
+      background-color:white;
+      border:0px solid white;
+      width:108px;
+      height:35px;
+      line-height:35px;
+      text-align:center;
+      float:left;
+      position:relative;
+      border-radius:2px;
+      
+  }
+  #menu ul li ul a
+  {
+      background-color:#E9E9E9;
+  }
+  #menu ul li a
+  {
+      text-decoration:none;
+      font-size:17px;
+      color:black;
+      display:block;
+  }
+  #menu ul li a:hover
+  {
+      background-color:#999999;
+      border-radius:2px;
+  
+  }
+  #menu ul ul
+  {
+      position:relative;
+      z-index:1000;
+      display:none;
+  }
+  #menu ul ul li
+  {
+      width:375px;
+      text-align:left;
+  }
+  
+  #menu ul li:hover > ul
+  {
+      display:block;
+  }
+  #menu ul ul ul
+  {
+      margin-left:330px;
+      top:-35px;
+  }
+  
+  <style>
+  
+  #counter{border: 2px solid #cc0000; color:#ffffff; text-align:center; padding:4px; width:150px; background:#000000; font:normal 12px tahoma, verdana, Arial; }
+  
+  #counter span {font-weight:bold;}
+  
+  </slyle>
+  
+  
+  
+  
+  
+      
